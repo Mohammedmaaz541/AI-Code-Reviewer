@@ -9,7 +9,7 @@ const button = document.getElementById("generate");
 // IMPORTANT: Replace "YOUR_API_KEY" with your actual API key.
 // For production, never expose your API key directly in client-side code.
 // Consider using a backend proxy for API calls.
-const genAI = new GoogleGenerativeAI("AIzaSyAAYdy7ZdU3AEtaShKFmf2pV0906ffTJHA"); // replace with your actual API key
+const genAI = new GoogleGenerativeAI("AISyAAYdy7ZdU3AEthKFmf2pV06ffTJHA"); // replace with your actual API key
 
 async function main() {
   const prompt = textarea.value;
